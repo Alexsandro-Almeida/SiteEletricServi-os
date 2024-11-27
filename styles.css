@@ -124,6 +124,9 @@ nav a:hover {
     nav a {
         font-size: 18px;
     }
+    #header {
+        width: 95%;
+    }
 }
 
 @media (min-width: 769px) {
@@ -410,11 +413,8 @@ section {
         overflow: visible; /* Permite arrastar */
     }
 
-    .carousel-button {
-        display: none; /* Remove setas no mobile */
-    }
-
     .project-card {
+        flex: 0 0 auto;
         width: 250px; /* Ajuste para telas menores */
     }
 }
@@ -460,7 +460,12 @@ section {
 }
 
 /* Link para abrir o PDF */
+
 .project-link {
+    text-decoration: none;
+}
+
+.Vermais {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
